@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b0d84be694864ff4ea3c6d30c0eab7de
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: aedd2dd8c06310a438f874d7788f895d, type: 2}
+  _fileAsset: {instanceID: 0}
+  _assetPath: Assets/SubstanceMaterials/snowsubstance001.sbsar

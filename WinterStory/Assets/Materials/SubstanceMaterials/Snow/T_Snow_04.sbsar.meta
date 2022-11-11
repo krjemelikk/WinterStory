@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2902189b8abe4d9408ca8543c36bb8aa
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: f32ff60456e79554b9474d701fd2674d, type: 2}
+  _fileAsset: {instanceID: 0}
+  _assetPath: Assets/Materials/SubstanceMaterials/Snow/T_Snow_04.sbsar
