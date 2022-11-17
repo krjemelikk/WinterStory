@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
@@ -11,6 +12,7 @@ namespace StarterAssets
 		public Vector2 move;
 		public Vector2 look;
 		public bool jump;
+		public bool use;
 		public bool sprint;
 
 		[Header("Movement Settings")]
@@ -34,6 +36,11 @@ namespace StarterAssets
 			}
 		}
 
+		public void OnUse(InputValue value)
+		{
+			UseInput(value.isPressed);
+		}
+
 		public void OnJump(InputValue value)
 		{
 			JumpInput(value.isPressed);
@@ -54,6 +61,11 @@ namespace StarterAssets
 		public void LookInput(Vector2 newLookDirection)
 		{
 			look = newLookDirection;
+		}
+
+		private void UseInput(bool newUseState)
+		{
+			use = newUseState;
 		}
 
 		public void JumpInput(bool newJumpState)

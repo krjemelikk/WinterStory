@@ -28,5 +28,5 @@ Material:
     m_Floats:
     - _Radius: 0.2
     m_Colors:
-    - _DrawPosition: {r: 0.70539546, g: 0.096832655, b: 0, a: 0}
+    - _DrawPosition: {r: 0.44175112, g: 0.003252411, b: 0, a: 0}
   m_BuildTextureStacks: []
